@@ -52,3 +52,4 @@ RUN su - vagrant -c 'bash -c "source $HOME/.rvm/scripts/rvm && $(which rvm) inst
 RUN su - vagrant -c 'bash -c "source $HOME/.rvm/scripts/rvm && $(which rvm) install 2.5.0"'
 RUN su - vagrant -c 'bash -c "source $HOME/.rvm/scripts/rvm && $(which rvm) install 2.4.2"'
 RUN su - vagrant -c 'bash -c "source $HOME/.rvm/scripts/rvm && $(which rvm) install 2.3.1"'
+RUN su - vagrant -c 'bash -c "source $HOME/.rvm/scripts/rvm && $(which rvm) install 2.3.3"'
